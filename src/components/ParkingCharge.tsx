@@ -24,6 +24,7 @@ function ParkingCharge(props: any) {
       >
         <Box sx={style}>
           <div>Parking Charge</div>
+          <p id="deregister-car-registration">Car No:{carInfo?.carNo}</p>
          <p id="deregister-time-spent"> Total Time:{carInfo?.totalTime}</p>
           <br />
          <p id="deregister-charge">
